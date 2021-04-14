@@ -13,6 +13,7 @@
 		69462AB526220D86005FD45C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69462AB426220D86005FD45C /* Preview Assets.xcassets */; };
 		69462ABF262211E2005FD45C /* tips.json in Resources */ = {isa = PBXBuildFile; fileRef = 69462ABD262211E1005FD45C /* tips.json */; };
 		69462AC0262211E2005FD45C /* locations.json in Resources */ = {isa = PBXBuildFile; fileRef = 69462ABE262211E2005FD45C /* locations.json */; };
+		694F46B126263A4600F49651 /* WorldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 694F46B026263A4600F49651 /* WorldView.swift */; };
 		696C40E92625271E00F92AAA /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 696C40E82625271E00F92AAA /* Location.swift */; };
 		696C40ED26252B9B00F92AAA /* Locations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 696C40EC26252B9B00F92AAA /* Locations.swift */; };
 /* End PBXBuildFile section */
@@ -26,6 +27,7 @@
 		69462AB626220D86005FD45C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		69462ABD262211E1005FD45C /* tips.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = tips.json; sourceTree = "<group>"; };
 		69462ABE262211E2005FD45C /* locations.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = locations.json; sourceTree = "<group>"; };
+		694F46B026263A4600F49651 /* WorldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldView.swift; sourceTree = "<group>"; };
 		696C40E82625271E00F92AAA /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 		696C40EC26252B9B00F92AAA /* Locations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Locations.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -61,6 +63,7 @@
 			isa = PBXGroup;
 			children = (
 				69462AAD26220D84005FD45C /* TrekrApp.swift */,
+				694F46B026263A4600F49651 /* WorldView.swift */,
 				69462AAF26220D84005FD45C /* ContentView.swift */,
 				696C40E82625271E00F92AAA /* Location.swift */,
 				696C40EC26252B9B00F92AAA /* Locations.swift */,
@@ -154,6 +157,7 @@
 			files = (
 				696C40E92625271E00F92AAA /* Location.swift in Sources */,
 				69462AB026220D84005FD45C /* ContentView.swift in Sources */,
+				694F46B126263A4600F49651 /* WorldView.swift in Sources */,
 				696C40ED26252B9B00F92AAA /* Locations.swift in Sources */,
 				69462AAE26220D84005FD45C /* TrekrApp.swift in Sources */,
 			);
