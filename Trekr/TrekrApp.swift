@@ -29,6 +29,7 @@ struct TrekrApp: App {
                     Text("Locations")
                 }
             }
+            .environmentObject(locations)
         }
     }
 }
